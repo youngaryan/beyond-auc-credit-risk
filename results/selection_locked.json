@@ -1,0 +1,20 @@
+{
+  "config": {
+    "bootstrap_replicates": 2000,
+    "folds": 5,
+    "permutation_repeats": 10,
+    "seed": 42,
+    "threshold": 0.5
+  },
+  "holdout_used_for_selection": false,
+  "protocol_sha256": "0761b1a6df56e9d2e5dfb745b27b825d1fe3d3d299efd85fad51d7cefac7c858",
+  "selected": {
+    "boosting": {
+      "model__learning_rate": 0.1,
+      "model__max_depth": 2
+    },
+    "logistic": {
+      "model__C": 0.1
+    }
+  }
+}

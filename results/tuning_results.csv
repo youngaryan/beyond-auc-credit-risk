@@ -1,0 +1,43 @@
+stage,model,params,mean_log_loss,selected
+outer_1,logistic,"{""model__C"": 0.1}",0.5206612262900746,True
+outer_1,logistic,"{""model__C"": 1.0}",0.5296947214869954,False
+outer_1,logistic,"{""model__C"": 10.0}",0.5577595014943679,False
+outer_1,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 1}",0.5366312780167191,False
+outer_1,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2}",0.535670521080233,False
+outer_1,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1}",0.5304211163634828,True
+outer_1,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2}",0.5390444866620918,False
+outer_2,logistic,"{""model__C"": 0.1}",0.516411304482419,True
+outer_2,logistic,"{""model__C"": 1.0}",0.5261740927925567,False
+outer_2,logistic,"{""model__C"": 10.0}",0.5586512807671139,False
+outer_2,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 1}",0.5391059068043532,False
+outer_2,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2}",0.5254532328527793,False
+outer_2,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1}",0.5295793967527749,False
+outer_2,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2}",0.5176120283050005,True
+outer_3,logistic,"{""model__C"": 0.1}",0.5030437600462738,True
+outer_3,logistic,"{""model__C"": 1.0}",0.5068048102872065,False
+outer_3,logistic,"{""model__C"": 10.0}",0.5359393609147507,False
+outer_3,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 1}",0.5347092575659633,False
+outer_3,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2}",0.519261478874985,False
+outer_3,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1}",0.518864849324246,False
+outer_3,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2}",0.5145343711207657,True
+outer_4,logistic,"{""model__C"": 0.1}",0.49276049460948296,False
+outer_4,logistic,"{""model__C"": 1.0}",0.49138607491742387,True
+outer_4,logistic,"{""model__C"": 10.0}",0.5223754149045192,False
+outer_4,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 1}",0.5104210706288328,False
+outer_4,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2}",0.4936956840051657,False
+outer_4,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1}",0.4940276950235516,False
+outer_4,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2}",0.48665745197250543,True
+outer_5,logistic,"{""model__C"": 0.1}",0.5021036560688144,True
+outer_5,logistic,"{""model__C"": 1.0}",0.5093326914674589,False
+outer_5,logistic,"{""model__C"": 10.0}",0.5381346617464071,False
+outer_5,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 1}",0.5223767998790446,False
+outer_5,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2}",0.5054538554891608,False
+outer_5,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1}",0.5076658146232202,False
+outer_5,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2}",0.5052333672976248,True
+full_training,logistic,"{""model__C"": 0.1}",0.5054831818699065,True
+full_training,logistic,"{""model__C"": 1.0}",0.512442360780564,False
+full_training,logistic,"{""model__C"": 10.0}",0.541558862126419,False
+full_training,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 1}",0.5278827386175016,False
+full_training,boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2}",0.5187528700912563,False
+full_training,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1}",0.5160973869443282,False
+full_training,boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2}",0.5128715249132623,True

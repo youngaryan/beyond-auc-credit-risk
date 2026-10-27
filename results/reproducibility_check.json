@@ -1,0 +1,14 @@
+{
+  "full_pipeline_runs": 2,
+  "identical_numeric_artifacts": {
+    "metrics.json": true,
+    "cv_results.csv": true,
+    "cv_predictions.csv": true,
+    "holdout_predictions.csv": true,
+    "bootstrap_intervals.csv": true,
+    "tuning_results.csv": true,
+    "logistic_coefficients.csv": true
+  },
+  "source_hashes_match": true,
+  "protocol_sha256": "0761b1a6df56e9d2e5dfb745b27b825d1fe3d3d299efd85fad51d7cefac7c858"
+}

@@ -1,0 +1,56 @@
+feature,description,reference,coefficient
+duration,duration (per training SD),numeric; other features held fixed,0.3208513768362894
+amount,amount (per training SD),numeric; other features held fixed,0.24446571195274758
+age,age (per training SD),numeric; other features held fixed,-0.05313634814800847
+status_2,status: ... < 0 DM,1: no checking account,-0.09937229378177313
+status_3,status: 0<= ... < 200 DM,1: no checking account,-0.35322133766791447
+status_4,status: ... >= 200 DM / salary for at least 1 year,1: no checking account,-1.1403855139644867
+credit_history_1,credit_history: critical account/other credits elsewhere,0: delay in paying off in the past,0.36645466019713807
+credit_history_2,credit_history: no credits taken/all credits paid back duly,0: delay in paying off in the past,0.03698275869472854
+credit_history_3,credit_history: existing credits paid back duly till now,0: delay in paying off in the past,-0.2177707591999286
+credit_history_4,credit_history: all credits at this bank paid back duly,0: delay in paying off in the past,-0.58526366873126
+purpose_1,purpose: car (new),0: others,-0.6754793580887171
+purpose_2,purpose: car (used),0: others,-0.07295071577079555
+purpose_3,purpose: furniture/equipment,0: others,-0.33731441182522937
+purpose_4,purpose: radio/television,0: others,0.00625569494843181
+purpose_5,purpose: domestic appliances,0: others,0.09568563177474637
+purpose_6,purpose: repairs,0: others,0.15576789743589167
+purpose_7,purpose: education,0: others,0.0
+purpose_8,purpose: vacation,0: others,-0.08464908590243904
+purpose_9,purpose: retraining,0: others,-0.19247333493319943
+purpose_10,purpose: business,0: others,-0.09949680614766489
+savings_2,savings: ... <  100 DM,1: unknown/no savings account,-0.07397143038666597
+savings_3,savings: 100 <= ... <  500 DM,1: unknown/no savings account,-0.2334137933979413
+savings_4,savings: 500 <= ... < 1000 DM,1: unknown/no savings account,-0.38737660082606445
+savings_5,savings: ... >= 1000 DM,1: unknown/no savings account,-0.6014796984824653
+employment_duration_2,employment_duration: < 1 yr,1: unemployed,0.1270645777439575
+employment_duration_3,employment_duration: 1 <= ... < 4 yrs,1: unemployed,0.012094890457544173
+employment_duration_4,employment_duration: 4 <= ... < 7 yrs,1: unemployed,-0.31461898905596364
+employment_duration_5,employment_duration: >= 7 yrs,1: unemployed,-0.08423941797343622
+installment_rate_2,installment_rate: 25 <= ... < 35,1: >= 35,-0.0631652714981475
+installment_rate_3,installment_rate: 20 <= ... < 25,1: >= 35,0.11753712297775303
+installment_rate_4,installment_rate: < 20,1: >= 35,0.36239090179785133
+personal_status_sex_2,personal_status_sex: female : non-single or male : single,1: male : divorced/separated,0.17704492066823152
+personal_status_sex_3,personal_status_sex: male : married/widowed,1: male : divorced/separated,-0.2984030430590236
+personal_status_sex_4,personal_status_sex: female : single,1: male : divorced/separated,-0.11116142764695101
+other_debtors_2,other_debtors: co-applicant,1: none,0.09572785658897137
+other_debtors_3,other_debtors: guarantor,1: none,-0.2708763400071726
+present_residence_2,present_residence: 1 <= ... < 4 yrs,1: < 1 yr,0.1485127788212013
+present_residence_3,present_residence: 4 <= ... < 7 yrs,1: < 1 yr,0.08362290140592414
+present_residence_4,present_residence: >= 7 yrs,1: < 1 yr,-0.025030124079817525
+property_2,property: car or other,1: unknown / no property,0.1856741227158661
+property_3,property: building soc. savings agr./life insurance,1: unknown / no property,-0.002784381333922297
+property_4,property: real estate,1: unknown / no property,0.31580609738746807
+other_installment_plans_2,other_installment_plans: stores,1: bank,0.11798545277963375
+other_installment_plans_3,other_installment_plans: none,1: bank,-0.310184017710009
+housing_2,housing: rent,1: for free,-0.28200349269125713
+housing_3,housing: own,1: for free,-0.00959631062872333
+number_credits_2,number_credits: 2-3,1: 1,0.200468564035164
+number_credits_3,number_credits: 4-5,1: 1,0.028569216632021097
+number_credits_4,number_credits: >= 6,1: 1,0.041995728641789805
+job_2,job: unskilled - resident,1: unemployed/unskilled - non-resident,-0.10779719334251466
+job_3,job: skilled employee/official,1: unemployed/unskilled - non-resident,0.09876635223431057
+job_4,job: manager/self-empl./highly qualif. employee,1: unemployed/unskilled - non-resident,0.0552334669119186
+people_liable_2,people_liable: 0 to 2,1: 3 or more,-0.08268969720596162
+telephone_2,telephone: yes (under customer name),1: no,-0.2772633433904681
+foreign_worker_2,foreign_worker: no,1: yes,0.31897679426352177

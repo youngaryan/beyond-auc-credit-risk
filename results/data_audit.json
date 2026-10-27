@@ -1,0 +1,19 @@
+{
+  "bad": 300,
+  "duplicate_feature_vectors": 0,
+  "duplicate_records": 0,
+  "good": 700,
+  "missing_cells": 0,
+  "n_features": 20,
+  "n_rows": 1000,
+  "sha256": {
+    "SouthGermanCredit.asc": "5f363343f356ca38a0236baab849e472846399b2176ccc5bd686483dd8a7562f",
+    "codetable.txt": "0040e7a173a06d1167447b2bbc4315ee1380fa3c25db321b9fd7d97ada0721bf",
+    "read_SouthGermanCredit.R": "92340012c6387dcc0fea9dcf47e2cc9659cda93c21bd688f3f694f0f0229ed68"
+  },
+  "source_label_counts": {
+    "0": 300,
+    "1": 700
+  },
+  "target_transformation": "bad_credit = 1 if original kredit == 0 else 0"
+}

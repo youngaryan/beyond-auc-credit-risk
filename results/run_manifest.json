@@ -1,0 +1,43 @@
+{
+  "config": {
+    "bootstrap_replicates": 2000,
+    "folds": 5,
+    "permutation_repeats": 10,
+    "seed": 42,
+    "threshold": 0.5
+  },
+  "data_sha256": {
+    "SouthGermanCredit.asc": "5f363343f356ca38a0236baab849e472846399b2176ccc5bd686483dd8a7562f",
+    "codetable.txt": "0040e7a173a06d1167447b2bbc4315ee1380fa3c25db321b9fd7d97ada0721bf",
+    "read_SouthGermanCredit.R": "92340012c6387dcc0fea9dcf47e2cc9659cda93c21bd688f3f694f0f0229ed68"
+  },
+  "dependencies": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "pypdf": "6.21.3",
+    "reportlab": "5.1.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "elapsed_seconds": 222.3056082999683,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol_sha256": "0761b1a6df56e9d2e5dfb745b27b825d1fe3d3d299efd85fad51d7cefac7c858",
+  "python": "3.12.10",
+  "selection_lock_sha256": "9396cb656cbb31492126f0a80c4bef8aebeb710334153c3641caafc1ed07b810",
+  "source_hashes": {
+    "__init__.py": "1f9811b215f6b19757a54f545e5ca8d245d031bd2bc41ed9530229476deecfec",
+    "__main__.py": "71da8f4043cd6e16b5b0380686960df7046fd3b093d2b604e0176c8f2527dd06",
+    "calibration.py": "8e7a335fe36ccf2eb9adca18c97f934c3b7475f683c275fbd1bc70e123880846",
+    "data.py": "49595792dc6662982cb824f7d990412557e1d494980c599da0cdd3036e482b85",
+    "evaluation.py": "71a9c2c9c90092b03aa58ae2f7a9d1e1af1fed5b73e822c0ac2dda3d4de13313",
+    "experiment.py": "6542f83ca646423f75e1f555269fc241caacfcc4257b057fd2649dee7d206d4a",
+    "models.py": "a080915987c6784427cb653cfb68c228cc67702cc5b068cc28a8e4b554ccc526",
+    "plotting.py": "02f1cddd5449fed42358befd31c1b322a6aeb9fdb5909c33d91291e02f74e364",
+    "preprocessing.py": "6838fee760ba63425b195856069f90e7482bb4f0187536769c737a3ad415a89f",
+    "report.py": "8a05ad4049695b649b67f1ebb2b77f2adafb2dcb2ecbd43ec0627691ce2d0216",
+    "robustness.py": "7945fa3a04a32f1c79479ba961f545a22530d115d221802997636c8ed97690ab"
+  },
+  "started_utc": "2026-10-27T15:46:58.566434+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "tests": 28,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "ruff": "passed",
+  "editable_install": "passed",
+  "full_pipeline": "passed",
+  "pdf_visual_review": "all 16 pages reviewed; final page 12 table repaired and rechecked",
+  "artifact_verification": {
+    "status": "complete",
+    "pdf_pages": 16,
+    "numbered_figures": 14,
+    "hashed_outputs": 32
+  },
+  "identical_numeric_artifacts": 7,
+  "validation_date": "2026-10-27",
+  "github_ci": "configuration supplied; not executed remotely"
+}

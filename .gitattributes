@@ -1,0 +1,6 @@
+# Source and evidence hashes are part of the research record.
+# Preserve original bytes on every platform instead of normalising line endings.
+* -text
+*.pdf binary
+*.png binary
+*.zip binary

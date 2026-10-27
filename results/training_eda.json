@@ -1,0 +1,44 @@
+{
+  "iqr_flags": {
+    "age": 14,
+    "amount": 63,
+    "duration": 56
+  },
+  "numeric": {
+    "age": {
+      "25%": 27.0,
+      "50%": 34.0,
+      "75%": 42.0,
+      "count": 800.0,
+      "iqr_flag_count": 14.0,
+      "max": 75.0,
+      "mean": 35.6575,
+      "min": 19.0,
+      "std": 11.06269283293606
+    },
+    "amount": {
+      "25%": 1350.5,
+      "50%": 2252.0,
+      "75%": 3922.0,
+      "count": 800.0,
+      "iqr_flag_count": 63.0,
+      "max": 18424.0,
+      "mean": 3246.5075,
+      "min": 250.0,
+      "std": 2867.695967173635
+    },
+    "duration": {
+      "25%": 12.0,
+      "50%": 18.0,
+      "75%": 24.0,
+      "count": 800.0,
+      "iqr_flag_count": 56.0,
+      "max": 72.0,
+      "mean": 20.92625,
+      "min": 4.0,
+      "std": 12.172757739157559
+    }
+  },
+  "policy": "descriptive flags retained; no data-dependent outlier deletion",
+  "population": "training only"
+}
